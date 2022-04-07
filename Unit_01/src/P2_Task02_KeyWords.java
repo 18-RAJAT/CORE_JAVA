@@ -1,20 +1,19 @@
-public class P2_Task02_KeyWords {
-    public static void main(String[] args) {
-        //Identifier expected
-//        int double = 1.5f;
-        //Not a statement
-//       int("hello");
+public class P2_Task02_KeyWords {   public static void main(String[] args) {
+    //Identifier expected
+       int double = 1.5f;
+    //Not a statement
+       int("hello");
     }
-//    //Identifier expected
-//    int int(string x)
+    //Identifier expected
+    int int(string x)
     {
-        //Cannot resolve method 'println(string)
-//        System.out.println(x);
-        //Cannot return a value from a method with void result type
-//        return 0;
+    //Cannot resolve method 'println(string)
+        System.out.println(x);
+    //Cannot return a value from a method with void result type
+        return 0;
     }
     //Invalid method declaration; return type required
-//    SampleClass boolean = new SampleClass();
+    SampleClass boolean = new SampleClass();
 }
 
 class SampleClass
