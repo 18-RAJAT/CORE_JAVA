@@ -21,12 +21,15 @@ package practice.String;
 public class String_Pool {
     public static void main(String[]args)
     {
+        //1st way
         String str1 = "Java";
         String str2 = "Python";
 
+        //2nd way
         String str3 = new String("Golang");
         String str4 = new String("Docker");
 
+        //3rd way
         String str5 = new String("javascript").intern();
         String str6 = new String("React").intern();
 

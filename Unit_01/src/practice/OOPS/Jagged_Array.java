@@ -16,11 +16,11 @@ public class Jagged_Array {
         System.out.println("Enter elements : ");
         for(int j=0;j<arr.length;j++)
             for(int i=0;i<arr[i].length;i++)
-                arr[j][i] = scn.nextInt();
 
+                arr[j][i] = scn.nextInt();
 //        int temp = 0;
 
-            for( int i = 0; i<3; i++) {
+            for( int i = 0; i< arr.length; i++) {
                 for (int j = 0; j < arr[i].length; j++) {
                     System.out.print(arr[i][j] + " ");
                 }
