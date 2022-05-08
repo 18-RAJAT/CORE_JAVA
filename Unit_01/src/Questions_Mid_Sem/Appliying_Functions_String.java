@@ -22,7 +22,7 @@ public static void main(String[]args)
     String s4 = "Kotlin";
     String s5 = "PHP";
 
-    //Concate
+    //Concat
     System.out.println(s1.concat(" Welcome"));
 
     //Character at indedx 1st
