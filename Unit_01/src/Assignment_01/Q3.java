@@ -28,7 +28,7 @@ public class Q3 {
         Scanner in =new Scanner(System.in);
 
         System.out.println("Question 03");
-        System.out.println("vansh_F_20011491");
+        System.out.println("Rajat joshi F 200115995");
         System.out.println("\t");
         System.out.println("Enter the number to be checked");
         int n=in.nextInt();
