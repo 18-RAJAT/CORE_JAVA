@@ -17,7 +17,8 @@ public class Q10 {
 
         for(int i=0;i<4;i++)
         {
-            System.out.println("Enter the name of the city");
+            System.out.println("Enter" +
+                    " the name of the city");
             p=obj.nextLine();
 
             System.out.println("enter no of maruti_k10 foollowed by zen_astelo,wagnor and maruti_sx4");
