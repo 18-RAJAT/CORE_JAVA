@@ -8,15 +8,15 @@ import java.awt.event.ActionListener;
 public class Add_Two_Numbers {
     public static void main(String[]args)
     {
-        Addition obj=new Addition();
+        addition obj=new addition();
     }
 }
-class Addition extends JFrame implements ActionListener
+class addition extends JFrame implements ActionListener
 {
     JTextField t1,t2;
     JButton b;
     JLabel l;
-    public Addition()
+    public addition()
     {
          t1=new JTextField(20);
          t2=new JTextField(20);
