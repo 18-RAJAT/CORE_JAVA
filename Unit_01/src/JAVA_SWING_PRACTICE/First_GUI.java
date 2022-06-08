@@ -1,5 +1,4 @@
 package JAVA_SWING_PRACTICE;
-
 import javax.swing.*;
 
 public class First_GUI {
