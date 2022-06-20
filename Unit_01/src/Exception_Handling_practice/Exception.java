@@ -9,7 +9,7 @@ class ExceptionD {
         catch (ArithmeticException e)
         {
             System.out.println("Error");
-            System.err.println("MSG");
+            System.out.println("MSG");
         }
         finally {
             System.out.println("BYE");

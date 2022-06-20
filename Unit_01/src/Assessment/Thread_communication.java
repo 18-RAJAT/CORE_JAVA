@@ -1,3 +1,5 @@
+package Assessment;
+
 class customer
 {
     int bal=1000;

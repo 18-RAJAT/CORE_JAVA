@@ -10,7 +10,8 @@ public class Checked_Exception {
         System.out.println("Enter a number :");
         BufferedReader br=null;
 
-        try{
+        try
+        {
             br=new BufferedReader(new InputStreamReader(System.in));
             n=Integer.parseInt(br.readLine());
         }
