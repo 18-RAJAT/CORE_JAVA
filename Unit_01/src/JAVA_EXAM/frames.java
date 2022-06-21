@@ -2,8 +2,8 @@ package JAVA_EXAM;
 
 import javax.swing.*;
 import java.awt.*;
-
 public class frames {
+
     public static void main(String[] args) {
         JFrame frame=new JFrame("Top ");
         JLabel label=new JLabel("Print");
@@ -15,7 +15,19 @@ public class frames {
         JLabel l=new JLabel("Adding ");
         frame.add(l);
         btn.setSize(200,100);
-        frame.setVisible(true);
+
         btn.setBackground(Color.blue);
+        JRadioButton btn2=new JRadioButton();
+        btn2.setText("New radio");
+        frame.add(btn2);
+
+        JRadioButton btn3=new JRadioButton();
+        btn3.setText("New radio");
+        frame.add(btn3);
+
+        JRadioButton btn4=new JRadioButton();
+        btn4.setText("New radio");
+        frame.add(btn4);
+        frame.setVisible(true);
     }
 }
