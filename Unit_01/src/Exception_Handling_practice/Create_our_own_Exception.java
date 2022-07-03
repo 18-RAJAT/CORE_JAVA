@@ -14,7 +14,5 @@ public class Create_our_own_Exception {
         } catch (RajatException e) {
             System.out.println("Sol " + e.getMessage());
         }
-
-
     }
 }
